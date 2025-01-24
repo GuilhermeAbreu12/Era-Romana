@@ -21,7 +21,7 @@ export let recentPosts = [
             ' Ditadura',
             ' Reformas do Calendário',
             ' Guerra Civil e Vitória sobre Pompeu',
-            ' Relacionamento com <a href="post.html?cleopatra-10-fatos-fascinantes-sobre-a-rainha-do-nilo">Cleópatra</a>',
+            ' Relacionamento com Cleópatra',
             ' Reformas Sociais e Econômicas',
             ' Assassinato',
             ' Legado e Impacto'
