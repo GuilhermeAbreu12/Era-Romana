@@ -7,7 +7,6 @@ let conteudo = []
 let current = 0
 let cont = 0
 let tema = url.split('?')[1]
-console.log(tema)
 
 switch (tema){
     case 'lendas-romanas':
