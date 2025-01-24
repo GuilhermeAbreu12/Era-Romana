@@ -15,6 +15,7 @@
     --vermelho4: #4b0000;
     --vermelho5: #4b0000;
     --branco: #fff;
+    --amarelo1: yellow;
 }
 
 *{
@@ -24,7 +25,7 @@
 }
 a:focus {
     outline: 0;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px var(--branco);
     border: 1px solid var(--branco);
 }
 body{
@@ -115,8 +116,8 @@ header{
 }
 .btn-menu-mob > div{
     height:3px;
-    background-color:white;
-    border:1px solid white;
+    background-color:var(--branco);
+    border:1px solid var(--branco);
     transition:.6s;
 }
 .line-menumob-1{
@@ -172,15 +173,15 @@ header{
 .menu-mobile nav a{
     font-size:24px;
     text-decoration:none;
-    color:white;
+    color:var(--branco);
     padding:20px 0;
     display:block;
     transition:.5s;
 }
 .menu-mobile nav a:hover{
     color:black;
-    background-color:white;
-    box-shadow:0 0 20px white;
+    background-color:var(--branco);
+    box-shadow:0 0 20px var(--branco);
 }
 .menu-mobile.abrir{
     height:100vh;
@@ -323,11 +324,19 @@ body.overflow{
     background:#f9f9f9;
     padding:4.5rem 0;
 }
+.blog .container{
+    width: 90%;
+}
 .blog-content{
     margin:2rem 0;
+    width: 100%;
 }
 .blog-img{
     position:relative;
+}
+.blog-img img{
+    min-height: 250px;
+    height: 70vh;
 }
 .blog-img span{
     position: absolute;
@@ -379,11 +388,11 @@ body.overflow{
 .button:hover{
     border: 2px solid var(--vermelho4);
     color: var(--vermelho4);
-    background: yellow;
+    background: var(--amarelo1);
     box-shadow: 0 0 20px var(--vermelho4);
 }
 .button.button2 {
-    background-color: yellow;
+    background-color: var(--amarelo1);
     color: var(--vermelho4);
     border-color: rgb(165, 165, 0);
 }
@@ -416,7 +425,7 @@ body.overflow{
     background-color: var(--vermelho4);
 }
 #temas > h1 {
-    color: white;
+    color: var(--branco);
     font-size: 2rem;
     margin-bottom: 2.5rem;
 }
@@ -430,11 +439,11 @@ body.overflow{
     width: auto;
     display: flex;
     flex-direction: column;
-    border: 2px solid white;
+    border: 2px solid var(--branco);
     border-radius: 10px;
 }
 .temasCard:hover, .temasCard:focus{
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 20px var(--branco);
     transition: .6s;
     outline: 0;
 }
@@ -450,7 +459,7 @@ body.overflow{
 .temasCard .temasCard__body {
     width: 100%;
     padding: 1rem;
-    color: white;
+    color: var(--branco);
 }
 .temasCard__body {
     height: 100%;
@@ -530,7 +539,7 @@ body.overflow{
     font-weight: bold;
     border: 1px solid var(--vermelho4);
     border-radius: 5px;
-    color: white;
+    color: var(--branco);
     background-color: var(--vermelho4);
 }
 .contact-container > form > button:hover{

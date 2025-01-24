@@ -39,10 +39,20 @@ function loadPost() {
             // Atualiza o conteúdo da descrição
             metaDescription.setAttribute('content', description);
         }
-        
-        // Exemplo de uso:
         updateMetaDescription(`${post.metaDescription}`);
-        
+
+        function updateKeywords(keywords) {
+            let metaKeywords = document.querySelector('meta[name="keywords"]');
+            if (!metaKeywords) {
+                // Se a meta tag não existir, crie-a
+                metaKeywords = document.createElement('meta');
+                metaKeywords.setAttribute('name', 'keywords');
+                document.head.appendChild(metaKeywords);
+            }
+            // Atualiza o conteúdo da descrição
+            metaKeywords.setAttribute('content', keywords);
+        }
+        updateKeywords(`${post.keywords}`);
 
         title.innerText = `${post.title}`
 
@@ -65,43 +75,43 @@ function loadPost() {
                     <p>${post.introducao}</p>
                 </div>
                 <div class="text-box">
-                    <h2><span class="blue-text">Fato 1:</span>${post.fatosTitulos[0]}</h2>
+                    <h2><span class="red-text">Fato 1:</span>${post.fatosTitulos[0]}</h2>
                     <p>${post.paragrafos[0]}</p>
                 </div>
                 <div class="text-box">
-                    <h2><span class="blue-text">Fato 2:</span>${post.fatosTitulos[1]}</h2>
+                    <h2><span class="red-text">Fato 2:</span>${post.fatosTitulos[1]}</h2>
                     <p>${post.paragrafos[1]}</p>
                 </div>
                 <div class="text-box">
-                    <h2><span class="blue-text">Fato 3:</span>${post.fatosTitulos[2]}</h2>
+                    <h2><span class="red-text">Fato 3:</span>${post.fatosTitulos[2]}</h2>
                     <p>${post.paragrafos[2]}</p>
                 </div>
                 <div class="text-box">
-                    <h2><span class="blue-text">Fato 4:</span>${post.fatosTitulos[3]}</h2>
+                    <h2><span class="red-text">Fato 4:</span>${post.fatosTitulos[3]}</h2>
                     <p>${post.paragrafos[3]}</p>
                 </div>
                 <div class="text-box">
-                    <h2><span class="blue-text">Fato 5:</span>${post.fatosTitulos[4]}</h2>
+                    <h2><span class="red-text">Fato 5:</span>${post.fatosTitulos[4]}</h2>
                     <p>${post.paragrafos[4]}</p>
                 </div>
                 <div class="text-box">
-                    <h2><span class="blue-text">Fato 6:</span>${post.fatosTitulos[5]}</h2>
+                    <h2><span class="red-text">Fato 6:</span>${post.fatosTitulos[5]}</h2>
                     <p>${post.paragrafos[5]}</p>
                 </div>
                 <div class="text-box">
-                    <h2><span class="blue-text">Fato 7:</span>${post.fatosTitulos[6]}</h2>
+                    <h2><span class="red-text">Fato 7:</span>${post.fatosTitulos[6]}</h2>
                     <p>${post.paragrafos[6]}</p>
                 </div>
                 <div class="text-box">
-                    <h2><span class="blue-text">Fato 8:</span>${post.fatosTitulos[7]}</h2>
+                    <h2><span class="red-text">Fato 8:</span>${post.fatosTitulos[7]}</h2>
                     <p>${post.paragrafos[7]}</p>
                 </div>
                 <div class="text-box">
-                    <h2><span class="blue-text">Fato 9:</span>${post.fatosTitulos[8]}</h2>
+                    <h2><span class="red-text">Fato 9:</span>${post.fatosTitulos[8]}</h2>
                     <p>${post.paragrafos[8]}</p>
                 </div>
                 <div class="text-box">
-                    <h2><span class="blue-text">Fato 10:</span>${post.fatosTitulos[9]}</h2>
+                    <h2><span class="red-text">Fato 10:</span>${post.fatosTitulos[9]}</h2>
                     <p>${post.paragrafos[9]}</p>
                 </div>
                 <div class="text-box" id="text-box-completion">

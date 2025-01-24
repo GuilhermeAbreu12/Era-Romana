@@ -6,8 +6,23 @@
     margin: 0;
     box-sizing: border-box;
 }
-:root {
+:root{
     font-size: 16px;
+    --Playfair: 'Playfair Display', serif;
+    --Quicksand: 'Quicksand', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --FiraSans: 'Fira Sans', sans-serif;
+    --Montserrat: 'Montserrat', sans-serif;
+    --OpenSans: 'Open Sans', sans-serif;
+    --dark: #3c393d; 
+    --exDark: #2b2b2b;
+    --vermelho1: #ff0000; 
+    --vermelho2: #8a4343;
+    --vermelho3: #760000;
+    --vermelho4: #4b0000;
+    --vermelho5: #4b0000;
+    --amarelo: yellow;
+    --branco: #fff;
 }
 body {
     max-width: 100vw;
@@ -129,16 +144,16 @@ p, h2 {
     width: auto;
     padding: 3% 3%;
     margin-bottom: 1%;
-    border: 1px solid red;
+    border: 1px solid var(--vermelho1);
     border-radius: 8px;
     color: white;
-    background-color: red;
+    background-color: var(--vermelho1);
     font-weight: bolder;
     font-size: 1rem;
     text-decoration: none;
     font-family: sans-serif;
 }
 .btn-voltar:hover {
-    box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px var(--vermelho1);
     transition: .5s;
 }
