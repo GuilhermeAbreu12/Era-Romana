@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Era Romana</title>
+    <link rel="shortcut icon" href="imgs/logotipo/oficial.png">
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="oQ89An9BbTWBeojgG1pczKyqP4LjTGEkEqxNcyRyjrc" />
+    <!-- Font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/searchBar.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/responsivePost.css">
+    <!-- Estilos separados -->
+    <meta name="author" content="Guilherme Abreu">
+    <meta name="description" content="Explore o legado de Roma Antiga no Era Romana! Descubra a história do Império Romano, curiosidades, grandes imperadores, batalhas épicas e a influência cultural que moldou o mundo. Acesse agora!">
+</head>
+
+<!-- Aqui eu começo a alterar -->
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar" id="navbar">
+            <div class="container">
+                <!-- Tela Desktop -->
+                <div class="navbar-nav desktop-screen">
+                    <a href="#blog">Posts</a>
+                    <a href="">Em breve</a>
+                </div>
+                <a href="index.html" class="navbar-brand">
+                    <img src="imgs/logotipo/oficial.png" alt="Capacete militar, logotipo do Era Romana" id="Galea">
+                </a>
+
+                <div class="navbar-nav desktop-screen">
+                    <a href="#about">Sobre</a>
+                    <a href="#contact">Contato</a>
+                </div>
+
+                <!-- Tela Mobile -->
+                <div class="btn-menu-mob" id="btn-menu-mob">
+                    <div class="line-menumob-1"></div>
+                    <div class="line-menumob-2"></div>
+                </div>
+                <section class="menu-mobile" id="menu-mobile">
+                    <nav>
+                        <div class="menu-mobile-galea">
+                            <img src="imgs/logotipo/colorido.png" alt="Desenho de um capacete militar romano, símbolo do Era Romana." id="menu-galea">
+                        </div>
+                        <ul>
+                            <li><a href="#blog" onclick="AbrirFechar()">Posts</a></li>
+                            <li><a href="#sobre" onclick="AbrirFechar()">Sobre</a></li>
+                            <li><a href="#contato" onclick="AbrirFechar()">Contato</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="container">
+                <h1 class="banner-title">
+                    <span>Era</span> romana
+                </h1>
+                <p>O melhor lugar para conhecer um dos maiores impérios da história</p>
+
+                <div class="search">
+                    <input type="search" placeholder="Pesquisar ...">
+                    <a href="" class="search-btn">
+                        <div class="icon"><ion-icon name="search-outline"></ion-icon></div>
+                    </a>
+                    <div class="list"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- blog -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="title">
+                <h2>Últimos Posts</h2>
+                <p>Posts recentes sobre história</p>
+            </div>
+            <div class="blog-content" id="blog-content">
+            </div>
+
+
+            <a id="load-more">Ler mais</a>
+            <button class="button" id="show-all">Ver Todos</button>
+        </div>
+    </section>
+    <!-- end of blog -->
+    <section id="temas">
+        <h1>Explore por temas</h1>
+        <div id="temas__container">
+
+        </div>
+    </section>
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div>
+                    <div id="logo-box">
+                        <img src="imgs/logotipo/oficial.png" alt="Capacete militar, logo do Era Romana." id="logo">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="title">
+                        <h2>Era Romana</h2>
+                        <p>O lendário império guerreiro.</p>
+                    </div>
+                    <p>
+                        Bem-vindo ao <strong>Era Romana</strong>, o blog dedicado à história fascinante de Roma Antiga!
+                        Aqui, você encontra conteúdos ricos e bem pesquisados sobre o <strong>Império Romano</strong>,
+                        seus imperadores, conquistas militares, cultura, arquitetura e o cotidiano de uma das
+                        civilizações mais influentes de todos os tempos.
+                    </p>
+                    <p>
+                        Nosso objetivo é trazer a <strong>história de Roma</strong> para mais perto de você, com artigos
+                        detalhados, curiosidades históricas e análises profundas que mostram como Roma moldou o mundo
+                        moderno. Seja você um estudante, um amante da história ou apenas alguém curioso, encontrará
+                        informações valiosas sobre temas como:
+                    </p>
+
+                    <ul id="about-text__ul">
+                        <li>
+                            <p>Os grandes imperadores romanos e suas histórias.</p>
+                        </li>
+                        <li>
+                            <p>As batalhas épicas que definiram o destino de Roma.</p>
+                        </li>
+                        <li>
+                            <p>As inovações romanas em engenharia e arquitetura.</p>
+                        </li>
+                        <li>
+                            <p>Curiosidades do dia a dia romano, desde os gladiadores até o Senado.</p>
+                        </li>
+                    </ul>
+                    <p>
+                        No Era Romana, todos os caminhos levam à história. Explore o legado de Roma Antiga e descubra como sua influência ainda está presente no mundo de hoje. Acompanhe-nos e mergulhe em um passado repleto de conquistas, cultura e histórias inesquecíveis!</p>
+                    <a href="https://www.flaticon.com/br/icones-gratis/roma" title="roma ícones">Roma ícones criados por
+                        surang - Flaticon</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about -->
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="title">
+                <h2>Fale conosco</h2>
+            </div>
+            <form action="https://formsubmit.co/guilhermesabreu08@gmail.com" method="POST">
+                <p class="form-text">Seu nome</p>
+                <input type="text" name="name" id="name" required>
+                <p class="form-text">Seu email</p>
+                <input type="email" name="email" id="email" required>
+                <p class="form-text">Sua mensagem</p>
+                <textarea name="message" id="mensagem"></textarea>
+                <button type="submit">Enviar</button>
+                <p id="mensagem-sucesso"></p>
+            </form>
+        </div>
+    </section>
+    <!-- End of contact -->
+    <!-- footer -->
+    <footer>
+        <span>Era Romana 2025 - Guilherme Abreu</span>
+    </footer>
+    <script src="js/temas.js" defer></script>
+    <script src="js/contato.js" defer></script>
+    <script type="module" src="js/script.js" defer></script>
+    <script src="js/Searchbar.js" defer></script>
+    <script src="js/sugestoes.js" defer></script>
+    <script src="js/menu.js" defer></script>
+</body>
+
+</html>
