@@ -3,6 +3,51 @@ export let recentPosts = [
     title - titulo - metaDescription - keywords - data - temas - subtitulo - introducao - fatosTitulos - paragrafos - conclusao - img1 - img2 - img3 - altText - link
     */
     // Outros posts...
+    // Top 10 fatos sobre a história de Pompeu Magno
+    {
+        'title':'Era Romana | Top 10 fatos sobre a história de Pompeu Magno',
+        'titulo':'Top 10 fatos sobre a história de Pompeu Magno',
+        'metaDescription':'Descubra os 10 fatos mais marcantes sobre Pompeu Magno, o general romano que conquistou territórios, enfrentou Júlio César e marcou a história de Roma Antiga.',
+        'keywords':'Pompeu Magno, História de Pompeu, Roma Antiga, Guerra Civil Romana, Primeiro Triunvirato',
+        'data':'28 janeiro 2025',
+        'temas':[
+            'lideres-militares',
+            'historia-romana'
+        ],
+        'subtitulo':'Desvende os principais momentos da vida de Pompeu, um dos mais poderosos generais da Roma Antiga, e entenda seu papel na queda da República Romana.',
+        'introducao':'Pompeu Magno (“Gnaeus Pompeius Magnus”), ou simplesmente Pompeu, foi uma das figuras mais importantes da história da Roma Antiga. Militar brilhante e político influente, ele desempenhou um papel essencial nos eventos que levaram à queda da República e ao surgimento do Império Romano. Neste artigo, exploramos os 10 fatos mais marcantes sobre sua vida e legado. Mesmo que você não saiba nada sobre Pompeu, ao final desta leitura você entenderá por que ele é uma figura tão fascinante na história de Roma.',
+        'fatosTitulos':[
+            ' Ganhou o título de "O Grande" ainda jovem',
+            ' Era chamado de "adolescente carniceiro" por seus inimigos',
+            ' Limpou o mediterrâneo dos piratas em apenas 3 meses',
+            ' Conquistou e reorganizou o oriente',
+            ' Foi peça-chave no Primeiro Triunvirato',
+            ' Se casou com a filha de Júlio César',
+            ' Foi cônsul três vezes, mas uma delas sem colega',
+            ' Tornou-se o maior rival de Júlio César',
+            ' Foi derrotado por César na batalha de Farsalos',
+            ' Foi traído e assassinado no Egito'
+        ],
+        'paragrafos':[
+            'Pompeu recebeu o apelido de Magnus (“O Grande”) aos 24 anos, após liderar tropas com sucesso durante as Guerras Civis de Sula. O próprio ditador Sula teria se referido a ele como “Pompeu, o Grande”, comparando-o a <a href="https://erahistorica.netlify.app/post.html?top-10-fatos-sobre-alexandre-o-grande">Alexandre, o Grande</a>. Essa fama precoce foi alimentada por sua ambição e habilidade militar.',
+            'Durante as campanhas contra os aliados de Mário, Pompeu mostrou-se impiedoso, executando adversários capturados. Por causa disso, recebeu o apelido de “adolescente carniceiro”, que refletia sua reputação de implacável e ambicioso, mesmo em uma idade tão jovem.',
+            'No ano de 67 a.C., Pompeu recebeu poderes especiais para acabar com a ameaça dos piratas que infestavam o Mediterrâneo. Ele dividiu a região em setores e atacou os piratas simultaneamente, em uma campanha extremamente eficiente que garantiu rotas seguras para o comércio e o abastecimento de Roma. Essa conquista aumentou ainda mais sua fama, sendo uma das mais importantes em sua carreira militar.',
+            'Pompeu liderou campanhas vitoriosas contra Mitrídates VI, rei do Ponto, e expandiu os territórios romanos no Oriente. Ele anexou regiões como a Síria e consolidou o controle sobre a Judeia, reorganizando o Oriente e estabelecendo o poder romano em uma das regiões mais importantes do mundo antigo. Essa expansão foi crucial para a história da Roma Antiga, garantindo recursos e territórios estratégicos.',
+            'Em 60 a.C., Pompeu formou uma aliança política informal com <a href="post.html?top-10-fatos-sobre-julio-cesar">Júlio César</a> e Marco Crasso, conhecida como o Primeiro Triunvirato. Juntos, eles controlavam a política romana, ignorando a autoridade do Senado. Essa parceria, entretanto, foi marcada por rivalidades que culminariam em conflitos futuros, especialmente entre Pompeu e César.',
+            'Pompeu se casou com Julia, filha de Júlio César, como parte do acordo político do Triunvirato. Embora fosse um casamento arranjado, os relatos indicam que o casal tinha uma relação afetuosa. A morte de Julia, em 54 a.C., enfraqueceu os laços entre Pompeu e César, acelerando sua rivalidade e mudando o curso da história da República Romana.',
+            'Pompeu foi eleito cônsul de Roma três vezes, sendo que em 52 a.C. ele governou como consul sine collega (“cônsul sem colega”). Esse poder extraordinário simbolizava sua grande influência na República Romana, mas também gerou mais tensões políticas com Júlio César. Esse momento destaca a centralização de poder na história de Pompeu.',
+            'Com o colapso do Primeiro Triunvirato, Pompeu e César tornaram-se inimigos mortais. Pompeu, apoiado pelo Senado, representava os optimates (a elite tradicional), enquanto César liderava os populares (facção mais ligada ao povo). Esse conflito culminou na Guerra Civil Romana de 49 a.C., um dos eventos mais marcantes da queda da República Romana.',
+            'A Batalha de Farsalos, em 48 a.C., foi o confronto decisivo entre Pompeu e Júlio César. Apesar de ter um exército superior em número, Pompeu foi derrotado pela estratégia brilhante de César. Ele fugiu para o Egito após a derrota, buscando apoio para continuar lutando.',
+            'Chegando ao Egito, Pompeu foi assassinado a mando do faraó Ptolomeu XIII, que esperava ganhar o favor de César. Sua morte foi um fim trágico para um homem que, por décadas, havia sido uma das figuras mais poderosas de Roma. O assassinato de Pompeu marcou também o início da hegemonia de César na política romana.'
+        ],
+        'conclusao':'Pompeu Magno foi um dos maiores generais e líderes da Roma Antiga. Sua vida foi marcada por conquistas militares impressionantes, alianças políticas estratégicas e uma rivalidade amarga com Júlio César. Embora seu fim tenha sido trágico, seu legado perdura como um exemplo do que há de mais grandioso e também perigoso na ambição humana. A história de Pompeu é uma verdadeira lição sobre poder, lealdade e tragédia, e continua sendo um capítulo essencial na compreensão da queda da República Romana.',
+        'img1':'/imgs/post3_3.jpeg',
+        'img2':'/imgs/post3_4.jpeg',
+        'img3':'/imgs/post3_1.jpeg',
+        'altText':'Ilustração de Pompeu Magno',
+        'link':'post.html?top-10-fatos-sobre-a-historia-de-pompeu-magno'
+    },
+
     // Origem de Roma: Como surgiram os Romanos
     {
         'title':'Era Romana | Origem de Roma: Como surgiram os Romanos',
@@ -70,7 +115,7 @@ export let recentPosts = [
             ' Legado e Impacto'
         ],
         'paragrafos': [
-            'Júlio César começou sua carreira política como advogado e orador em Roma, e logo se destacou por suas habilidades. Em 60 a.C., formou o Primeiro Triunvirato com Pompeu e Crasso, uma aliança política que o ajudou a alcançar o consulado em 59 a.C.<div class="obs-box"><div class="obs-signo"></div><p>Triunvirato é um regime político ou acordo entre três pessoas com autoridade igual que se reúnem para gerir uma entidade ou completar uma missão. No caso de Roma, uma aliança informal de três generais populares do exército, com o objetivo de enfraquecer o poder e atuação do senado romano.</p></div>',
+            'Júlio César começou sua carreira política como advogado e orador em Roma, e logo se destacou por suas habilidades. Em 60 a.C., formou o Primeiro Triunvirato com <a href="post.html?top-10-fatos-sobre-a-historia-de-pompeu-magno">Pompeu</a> e Crasso, uma aliança política que o ajudou a alcançar o consulado em 59 a.C.<div class="obs-box"><div class="obs-signo"></div><p>Triunvirato é um regime político ou acordo entre três pessoas com autoridade igual que se reúnem para gerir uma entidade ou completar uma missão. No caso de Roma, uma aliança informal de três generais populares do exército, com o objetivo de enfraquecer o poder e atuação do senado romano.</p></div>',
             'Entre 58 a.C. e 50 a.C., César liderou campanhas militares na Gália (atual França e Bélgica), expandindo significativamente o território romano. Suas vitórias na Gália aumentaram sua fama e riqueza, consolidando seu poder em Roma.',
             'Em 49 a.C., ao atravessar o rio Rubicão com seu exército, César desafiou diretamente o Senado romano, que havia ordenado que ele desmantelasse suas forças. Esse ato provocou uma guerra civil, que ele venceu, levando-o ao poder absoluto.',
             'Após a vitória na guerra civil, César foi nomeado ditador vitalício em 44 a.C. Ele implementou uma série de reformas políticas, econômicas e sociais, mas seu poder absoluto criou descontentamento entre muitos senadores.',
@@ -82,9 +127,9 @@ export let recentPosts = [
             'A morte de César não restaurou a República, mas levou a mais guerras civis, resultando no fim da República e no início do Império Romano sob seu sobrinho-neto e herdeiro adotivo, Otaviano (futuro imperador Augusto). César é lembrado como uma das figuras mais influentes da história romana, com um legado que moldou o futuro de Roma e do mundo ocidental.',
         ],
         'conclusao': 'E esse foi o nosso TOP 10 FATOS sobre o Imperador Júlio César. Se você acha que faltou alguma coisa, ou tem alguma sugestão de tema para ser nosso próximo Top 10, é só escrever na sessão de mensagem do nosso site.',
-        'img1': '../imgs/post1_1.webp',
-        'img2': '../imgs/post1_2.webp',
-        'img3': '../imgs/post1_3.webp',
+        'img1': '../imgs/post1_1.png',
+        'img2': '../imgs/post1_2.png',
+        'img3': '../imgs/post1_3.jpeg',
         'altText': 'Ilustração de Júlio César',
         'link': 'post.html?top-10-fatos-sobre-julio-cesar'
     }

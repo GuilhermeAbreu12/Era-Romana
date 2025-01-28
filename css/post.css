@@ -97,6 +97,11 @@ img {
 p, h2 {
     font-family: 'Quicksand';
 }
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--vermelho1);
+}
 .introduction-box {
     padding: 3% 4% 3% 4%;
     text-align: center;
@@ -142,7 +147,7 @@ p, h2 {
 .btn-voltar {
     height: auto;
     width: auto;
-    padding: 3% 3%;
+    padding: 2% 3%;
     margin-bottom: 1%;
     border: 1px solid var(--vermelho1);
     border-radius: 8px;
