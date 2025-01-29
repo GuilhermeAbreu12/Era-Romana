@@ -1,19 +1,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://erahistorica.netlify.app/</loc>
+        <loc>https://eraromana.netlify.app/</loc>
         <lastmod>2025-01-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://erahistorica.netlify.app/post.html?top-10-fatos-sobre-julio-cesar</loc>
+        <loc>https://eraromana.netlify.app/post.html?top-10-fatos-sobre-julio-cesar</loc>
         <lastmod>2025-01-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://erahistorica.netlify.app/post.html?origem-de-roma</loc>
+        <loc>https://eraromana.netlify.app/post.html?origem-de-roma</loc>
         <lastmod>2025-01-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://eraromana.netlify.app/post.html?top-10-fatos-sobre-pompeu-magno</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://eraromana.netlify.app/post.html?top-10-fatos-sobre-marco-crasso</loc>
+        <lastmod>2025-01-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
