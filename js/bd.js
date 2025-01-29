@@ -3,16 +3,59 @@ export let recentPosts = [
     title - titulo - metaDescription - keywords - data - temas - subtitulo - introducao - fatosTitulos - paragrafos - conclusao - img1 - img2 - img3 - altText - link
     */
     // Outros posts...
-    // Top 10 fatos sobre a história de Pompeu Magno
+    // Crasso
     {
-        'title':'Era Romana | Top 10 fatos sobre a história de Pompeu Magno',
-        'titulo':'Top 10 fatos sobre a história de Pompeu Magno',
+        'title':'Era Romana | 10 fatos sobre Marco Crasso',
+        'titulo':'Top 10 fatos sobre Marco Crasso',
+        'metaDescription':'Descubra os 10 fatos mais fascinantes sobre Marco Licínio Crasso, o homem mais rico da República Romana, cuja ambição e decisões moldaram a história de Roma.',
+        'keywords':'Marco Licínio Crasso, História de Crasso, Homem mais rico de Roma, Primeiro Triunvirato, Revolta de Espártaco, Marco Crasso, Roma Antiga, Guerra Civil Romana, Primeiro Triunvirato, Crasso e Pompeu, Política romana',
+        'data':'28 janeiro 2025',
+        'temas':[
+            'lideres-militares',
+        ],
+        'subtitulo':'Quem foi Marco Licínio Crasso? Conheça os 10 fatos que definiram sua vida e seu impacto na República Romana.',
+        'introducao':'Marco Licínio Crasso é um dos nomes mais intrigantes da história da República Romana. Conhecido por sua fortuna colossal, suas ambições desmedidas e seu papel crucial na política e nas guerras de Roma, Crasso teve uma vida repleta de realizações, controvérsias e tragédias. Aqui estão 10 fatos essenciais que revelam quem ele realmente foi e por que seu legado permanece relevante até hoje.',
+        'fatosTitulos':[
+            ' Era o homem mais rico da República Romana',
+            ' Inventou práticas de investimento imobiliário',
+            ' Era um político habilidoso, mas não foi amado pelo povo',
+            ' Foi essencial para derrotar Espártaco',
+            ' Sua participação no Primeiro Triunvirato garantiu a ascensão de <a href="post.html?top-10-fatos-sobre-julio-cesar" target="_blank">Júlio César</a>',
+            ' Sonhava em ser reconhecido como um grande general',
+            ' Tinha uma rivalidade constante com Pompeu',
+            ' Foi derrotado por uma cavalaria que ele subestimou',
+            ' Morreu de forma brutal e simbólica',
+            ' Sua morte desestalou a República Romana',
+        ],
+        'paragrafos':[
+            'A riqueza de Crasso era lendária. Ele construiu seu patrimônio comprando propriedades confiscadas de inimigos de Sula durante as proibições políticas. Além disso, Crasso criou um corpo privado de bombeiros que operava de forma controversa: seus homens só apagavam incêndios se os donos concordassem em vender os imóveis por valores simbólicos. Essa combinação de oportunismo e pragmatismo o transformou no homem mais rico de Roma, com uma fortuna que alguns historiadores estimam ter atingido o equivalente a bilhões de dólares modernos.',
+            'Crasso era um verdadeiro visionário do mercado imobiliário. Ele comprava terrenos e edifícios em áreas devastadas por incêndios ou negligência, investia em reformas e depois revendia por valores muito mais altos. Além disso, ele mantinha uma equipe de escravos especializados em construção e arquitetura, o que reduzia seus custos e aumentava seus lucros. Essa estratégia o tornou um pioneiro em um modelo de negócios que ainda é praticado hoje.',
+            'Apesar de sua riqueza e poder, Crasso não era particularmente carismático. Ele era visto como ganancioso e, muitas vezes, como um oportunista que colocava seus interesses acima dos de Roma. Sua falta de apelo popular era uma barreira em sua carreira política, e ele frequentemente dependia de alianças estratégicas, como sua participação no Primeiro Triunvirato, para manter sua influência.',
+            'Uma das maiores conquistas militares de Crasso foi a supressão da revolta de escravos liderada por Espártaco, entre 73 e 71 a.C. Crasso assumiu o comando das tropas romanas em um momento crítico e usou táticas brutais para restabelecer a disciplina entre seus soldados, incluindo a decimatio – a execução de um em cada dez soldados como punição por covardia. Sua estratégia levou à derrota de Espártaco, embora <a href="post.html?top-10-fatos-sobre-pompeu-magno" target="_blank">Pompeu</a> tenha tentado se apropriar do crédito pela vitória ao derrotar os remanescentes da revolta.',
+            'Em 60 a.C., Crasso formou uma aliança política informal com Pompeu e Júlio César, conhecida como o Primeiro Triunvirato. Enquanto Pompeu trazia prestígio militar e César possuía carisma e ambição, Crasso contribuiu com sua imensa fortuna. Ele financiou campanhas políticas e militares de César, ajudando-o a conquistar territórios na Gália e a consolidar sua posição como uma das figuras mais influentes de Roma.',
+            'Embora fosse incrivelmente rico e político influente, Crasso sentia que lhe faltava uma coisa: glória militar comparável à de Pompeu e César. Essa busca pela fama o levou a embarcar em uma campanha militar contra o Império Parta, uma decisão que acabaria se revelando fatal.',
+            'Crasso e Pompeu compartilhavam uma relação complicada. Embora fossem aliados no Primeiro Triunvirato, eles competiam ferozmente por prestígio e poder. Crasso invejava as conquistas militares de Pompeu, enquanto Pompeu desprezava a ganância e o pragmatismo de Crasso. Essa tensão enfraqueceu a união do triunvirato.',
+            'Na fatídica batalha de Carras, em 53 a.C., Crasso enfrentou os partos, cujas táticas de combate e cavalaria arqueira eram muito superiores ao que ele esperava. Apesar de seus comandantes aconselharem prudência, Crasso insistiu em avançar, o que resultou em uma derrota devastadora para as legiões romanas. Mais de 20 mil soldados foram mortos, e outros 10 mil foram capturados.',
+            'Após ser capturado pelos partos, Crasso foi executado de maneira cruel. Segundo a lenda, os partos despejaram ouro derretido em sua boca para simbolizar sua ganância insaciável. Embora essa história possa ter sido exagerada por seus inimigos, ela reflete como Crasso era visto tanto por aliados quanto por adversários.',
+            'A morte de Crasso não foi apenas uma tragédia pessoal, mas também um ponto de inflexão para a história de Roma. Sem ele, o Primeiro Triunvirato perdeu o equilíbrio, e o confronto direto entre Pompeu e César tornou-se inevitável. Esse conflito resultou na Guerra Civil Romana e, eventualmente, no colapso da República.'
+        ],
+        'conclusao':'Marco Licínio Crasso foi uma figura complexa – ao mesmo tempo admirado por sua inteligência financeira e criticado por sua ganância e ambição desmedida. Sua vida e morte moldaram profundamente os eventos que levaram à transição de Roma de uma República para um Império. Crasso é lembrado por sua participação no Primeiro Triunvirato, seu papel na revolta de Espártaco e sua derrota na batalha de Carras, aspectos que continuam a fascinar historiadores e entusiastas da Roma Antiga. Ele nos ensina sobre os perigos da busca descontrolada por poder e riqueza, e seu legado permanece como um lembrete de como grandes aspirações podem levar tanto ao sucesso quanto à ruína.',
+        'img1':'/imgs/post4_1.jpeg',
+        'img2':'/imgs/post4_2.jpeg',
+        'img3':'/imgs/post4_3.jpeg',
+        'altText':'Ilustração de Crasso',
+        'link':'post.html?top-10-fatos-sobre-marco-crasso',
+    },
+
+    // Top 10 fatos sobre de Pompeu Magno
+    {
+        'title':'Era Romana | Top 10 fatos sobre Pompeu Magno',
+        'titulo':'Top 10 fatos sobre Pompeu Magno',
         'metaDescription':'Descubra os 10 fatos mais marcantes sobre Pompeu Magno, o general romano que conquistou territórios, enfrentou Júlio César e marcou a história de Roma Antiga.',
         'keywords':'Pompeu Magno, História de Pompeu, Roma Antiga, Guerra Civil Romana, Primeiro Triunvirato',
         'data':'28 janeiro 2025',
         'temas':[
             'lideres-militares',
-            'historia-romana'
         ],
         'subtitulo':'Desvende os principais momentos da vida de Pompeu, um dos mais poderosos generais da Roma Antiga, e entenda seu papel na queda da República Romana.',
         'introducao':'Pompeu Magno (“Gnaeus Pompeius Magnus”), ou simplesmente Pompeu, foi uma das figuras mais importantes da história da Roma Antiga. Militar brilhante e político influente, ele desempenhou um papel essencial nos eventos que levaram à queda da República e ao surgimento do Império Romano. Neste artigo, exploramos os 10 fatos mais marcantes sobre sua vida e legado. Mesmo que você não saiba nada sobre Pompeu, ao final desta leitura você entenderá por que ele é uma figura tão fascinante na história de Roma.',
@@ -29,11 +72,11 @@ export let recentPosts = [
             ' Foi traído e assassinado no Egito'
         ],
         'paragrafos':[
-            'Pompeu recebeu o apelido de Magnus (“O Grande”) aos 24 anos, após liderar tropas com sucesso durante as Guerras Civis de Sula. O próprio ditador Sula teria se referido a ele como “Pompeu, o Grande”, comparando-o a <a href="https://erahistorica.netlify.app/post.html?top-10-fatos-sobre-alexandre-o-grande">Alexandre, o Grande</a>. Essa fama precoce foi alimentada por sua ambição e habilidade militar.',
+            'Pompeu recebeu o apelido de Magnus (“O Grande”) aos 24 anos, após liderar tropas com sucesso durante as Guerras Civis de Sula. O próprio ditador Sula teria se referido a ele como “Pompeu, o Grande”, comparando-o a <a href="https://erahistorica.netlify.app/post.html?top-10-fatos-sobre-alexandre-o-grande" target="_blank">Alexandre, o Grande</a>. Essa fama precoce foi alimentada por sua ambição e habilidade militar.',
             'Durante as campanhas contra os aliados de Mário, Pompeu mostrou-se impiedoso, executando adversários capturados. Por causa disso, recebeu o apelido de “adolescente carniceiro”, que refletia sua reputação de implacável e ambicioso, mesmo em uma idade tão jovem.',
             'No ano de 67 a.C., Pompeu recebeu poderes especiais para acabar com a ameaça dos piratas que infestavam o Mediterrâneo. Ele dividiu a região em setores e atacou os piratas simultaneamente, em uma campanha extremamente eficiente que garantiu rotas seguras para o comércio e o abastecimento de Roma. Essa conquista aumentou ainda mais sua fama, sendo uma das mais importantes em sua carreira militar.',
             'Pompeu liderou campanhas vitoriosas contra Mitrídates VI, rei do Ponto, e expandiu os territórios romanos no Oriente. Ele anexou regiões como a Síria e consolidou o controle sobre a Judeia, reorganizando o Oriente e estabelecendo o poder romano em uma das regiões mais importantes do mundo antigo. Essa expansão foi crucial para a história da Roma Antiga, garantindo recursos e territórios estratégicos.',
-            'Em 60 a.C., Pompeu formou uma aliança política informal com <a href="post.html?top-10-fatos-sobre-julio-cesar">Júlio César</a> e Marco Crasso, conhecida como o Primeiro Triunvirato. Juntos, eles controlavam a política romana, ignorando a autoridade do Senado. Essa parceria, entretanto, foi marcada por rivalidades que culminariam em conflitos futuros, especialmente entre Pompeu e César.',
+            'Em 60 a.C., Pompeu formou uma aliança política informal com <a href="post.html?top-10-fatos-sobre-julio-cesar" target="_blank">Júlio César</a> e <a href="post.html?top-10-fatos-sobre-marco-crasso" target="_blank">Marco Crasso</a>, conhecida como o Primeiro Triunvirato. Juntos, eles controlavam a política romana, ignorando a autoridade do Senado. Essa parceria, entretanto, foi marcada por rivalidades que culminariam em conflitos futuros, especialmente entre Pompeu e César.',
             'Pompeu se casou com Julia, filha de Júlio César, como parte do acordo político do Triunvirato. Embora fosse um casamento arranjado, os relatos indicam que o casal tinha uma relação afetuosa. A morte de Julia, em 54 a.C., enfraqueceu os laços entre Pompeu e César, acelerando sua rivalidade e mudando o curso da história da República Romana.',
             'Pompeu foi eleito cônsul de Roma três vezes, sendo que em 52 a.C. ele governou como consul sine collega (“cônsul sem colega”). Esse poder extraordinário simbolizava sua grande influência na República Romana, mas também gerou mais tensões políticas com Júlio César. Esse momento destaca a centralização de poder na história de Pompeu.',
             'Com o colapso do Primeiro Triunvirato, Pompeu e César tornaram-se inimigos mortais. Pompeu, apoiado pelo Senado, representava os optimates (a elite tradicional), enquanto César liderava os populares (facção mais ligada ao povo). Esse conflito culminou na Guerra Civil Romana de 49 a.C., um dos eventos mais marcantes da queda da República Romana.',
@@ -45,7 +88,7 @@ export let recentPosts = [
         'img2':'/imgs/post3_4.jpeg',
         'img3':'/imgs/post3_1.jpeg',
         'altText':'Ilustração de Pompeu Magno',
-        'link':'post.html?top-10-fatos-sobre-a-historia-de-pompeu-magno'
+        'link':'post.html?top-10-fatos-sobre-pompeu-magno'
     },
 
     // Origem de Roma: Como surgiram os Romanos
@@ -98,7 +141,7 @@ export let recentPosts = [
         'data': '30 Agosto 2024',
         'temas': [
             'lideres-militares',
-            'lendas-romanas'
+            'governadores-romanos',
         ],
         'subtitulo': 'Conheça a história de um dos maiores imperadores da história',
         'introducao': 'Júlio César foi um dos maiores governantes da história de Roma, e um dos líderes mais famosos do mundo. E é exatamente por isso que seria impossível ele não passar por aqui. Então aqui vão 10 fatos sobre essa lenda romana.',
@@ -109,13 +152,13 @@ export let recentPosts = [
             ' Ditadura',
             ' Reformas do Calendário',
             ' Guerra Civil e Vitória sobre Pompeu',
-            ' Relacionamento com Cleópatra',
+            ' Relacionamento com <a href="https://erahistorica.netlify.app/post.html?cleopatra-10-fatos-fascinantes-sobre-a-rainha-do-nilo">Cleópatra</a>',
             ' Reformas Sociais e Econômicas',
             ' Assassinato',
             ' Legado e Impacto'
         ],
         'paragrafos': [
-            'Júlio César começou sua carreira política como advogado e orador em Roma, e logo se destacou por suas habilidades. Em 60 a.C., formou o Primeiro Triunvirato com <a href="post.html?top-10-fatos-sobre-a-historia-de-pompeu-magno">Pompeu</a> e Crasso, uma aliança política que o ajudou a alcançar o consulado em 59 a.C.<div class="obs-box"><div class="obs-signo"></div><p>Triunvirato é um regime político ou acordo entre três pessoas com autoridade igual que se reúnem para gerir uma entidade ou completar uma missão. No caso de Roma, uma aliança informal de três generais populares do exército, com o objetivo de enfraquecer o poder e atuação do senado romano.</p></div>',
+            'Júlio César começou sua carreira política como advogado e orador em Roma, e logo se destacou por suas habilidades. Em 60 a.C., formou o Primeiro Triunvirato com <a href="post.html?top-10-fatos-sobre-a-historia-de-pompeu-magno" target="_blank">Pompeu</a> e <a href="post.html?top-10-fatos-sobre-marco-crasso" target="_blank">Crasso</a>, uma aliança política que o ajudou a alcançar o consulado em 59 a.C.<div class="obs-box"><div class="obs-signo"></div><p>Triunvirato é um regime político ou acordo entre três pessoas com autoridade igual que se reúnem para gerir uma entidade ou completar uma missão. No caso de Roma, uma aliança informal de três generais populares do exército, com o objetivo de enfraquecer o poder e atuação do senado romano.</p></div>',
             'Entre 58 a.C. e 50 a.C., César liderou campanhas militares na Gália (atual França e Bélgica), expandindo significativamente o território romano. Suas vitórias na Gália aumentaram sua fama e riqueza, consolidando seu poder em Roma.',
             'Em 49 a.C., ao atravessar o rio Rubicão com seu exército, César desafiou diretamente o Senado romano, que havia ordenado que ele desmantelasse suas forças. Esse ato provocou uma guerra civil, que ele venceu, levando-o ao poder absoluto.',
             'Após a vitória na guerra civil, César foi nomeado ditador vitalício em 44 a.C. Ele implementou uma série de reformas políticas, econômicas e sociais, mas seu poder absoluto criou descontentamento entre muitos senadores.',
@@ -137,20 +180,20 @@ export let recentPosts = [
 
 export const listaTemas = [
     {
-        'img': '../imgs/post1_5.jpeg',
+        'img': '../imgs/post1_2.png',
         'title': 'Batalhas Lendárias',
         'subtitle': 'Conheça batalhas lendárias que impactaram profundamente o nosso mundo.',
         'link': 'temas.html?batalhas-lendarias'
     },
     {
-        'img': '../imgs/post1_4.png',
-        'title': 'Lendas Romanas',
+        'img': '../imgs/post3_1.jpeg',
+        'title': 'Lideres Militares',
         'subtitle': 'Explore a história lendária dos que ajudaram a construir um dos maiores impérios da história.',
-        'link': 'temas.html?lendas-romanas'
+        'link': 'temas.html?lideres-militares'
     },
     {
         'img': '../imgs/10.png',
-        'title': 'Governos romanos',
+        'title': 'Governadores romanos',
         'subtitle': 'Conheça como foram os governos e regimes que influenciaram a história de Roma do início ao fim.',
         'link': 'temas.html?governos-romanos'
     }
