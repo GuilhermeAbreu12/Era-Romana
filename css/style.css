@@ -424,7 +424,7 @@ body.overflow{
     align-items: center;
     background-color: var(--vermelho4);
 }
-#temas > h1 {
+#temas > h2 {
     color: var(--branco);
     font-size: 2rem;
     margin-bottom: 2.5rem;
