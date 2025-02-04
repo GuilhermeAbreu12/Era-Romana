@@ -8,7 +8,7 @@ export let recentPosts = [
         'title':'Era Romana | 10 fatos sobre Marco Crasso',
         'titulo':'Top 10 fatos sobre Marco Crasso',
         'metaDescription':'Descubra os 10 fatos mais fascinantes sobre Marco Licínio Crasso, o homem mais rico da República Romana, cuja ambição e decisões moldaram a história de Roma.',
-        'keywords':'Marco Licínio Crasso, História de Crasso, Homem mais rico de Roma, Primeiro Triunvirato, Revolta de Espártaco, Marco Crasso, Roma Antiga, Guerra Civil Romana, Primeiro Triunvirato, Crasso e Pompeu, Política romana',
+        'keywords':'Marco Licínio Crasso, Roma, História de Crasso, Homem mais rico de Roma, Primeiro Triunvirato, Revolta de Espártaco, Marco Crasso, Roma Antiga, Guerra Civil Romana, Primeiro Triunvirato, Crasso e Pompeu, Política romana',
         'data':'28 janeiro 2025',
         'temas':[
             'lideres-militares',
@@ -136,14 +136,14 @@ export let recentPosts = [
     {
         'title': 'Era Romana | Top 10 fatos sobre Júlio César',
         'titulo': 'Top 10 fatos sobre Júlio César',
-        'metaDescription': 'Descubra 10 fatos fascinantes sobre o famoso imperador romano Júlio César',
+        'metaDescription': 'Descubra 10 fatos fascinantes sobre o famoso ditador romano Júlio César',
         'keywords': 'júlio cesar, imperador romano, top 10 fatos, historia, legado',
         'data': '30 Agosto 2024',
         'temas': [
             'lideres-militares',
             'governadores-romanos',
         ],
-        'subtitulo': 'Conheça a história de um dos maiores imperadores da história',
+        'subtitulo': 'Conheça a história de um dos maiores líderes da história',
         'introducao': 'Júlio César foi um dos maiores governantes da história de Roma, e um dos líderes mais famosos do mundo. E é exatamente por isso que seria impossível ele não passar por aqui. Então aqui vão 10 fatos sobre essa lenda romana.',
         'fatosTitulos': [
             ' Ascensão política',
@@ -169,7 +169,7 @@ export let recentPosts = [
             'Em 15 de março de 44 a.C. (os Idos de março), César foi assassinado por um grupo de senadores liderados por Bruto e Cássio, dois homens aos quais César havia concedido perdão por uma rebelião anterior. Bruto, filho de Servília (antiga amante de Júlio César), era muito amado por César (muito disso devido o seu parentêsco com Servília), a ponto de Júlio César, ao sair para guerrear contra os republicanos na África, nomear Bruto como governador da Gália Cisalpina (atual norte da Itália), mesmo Bruto tendo pouca experiência política e habilidade militar. Os conspiradores temiam que ele se tornasse um rei e destruísse a República Romana.',
             'A morte de César não restaurou a República, mas levou a mais guerras civis, resultando no fim da República e no início do Império Romano sob seu sobrinho-neto e herdeiro adotivo, Otaviano (futuro imperador Augusto). César é lembrado como uma das figuras mais influentes da história romana, com um legado que moldou o futuro de Roma e do mundo ocidental.',
         ],
-        'conclusao': 'E esse foi o nosso TOP 10 FATOS sobre o Imperador Júlio César. Se você acha que faltou alguma coisa, ou tem alguma sugestão de tema para ser nosso próximo Top 10, é só escrever na sessão de mensagem do nosso site.',
+        'conclusao': 'E esse foi o nosso TOP 10 FATOS sobre Júlio César. Se você acha que faltou alguma coisa, ou tem alguma sugestão de tema para ser nosso próximo Top 10, é só escrever na sessão de mensagem do nosso site.',
         'img1': '../imgs/post1_1.png',
         'img2': '../imgs/post1_2.png',
         'img3': '../imgs/post1_3.jpeg',
